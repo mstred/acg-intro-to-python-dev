@@ -1,0 +1,3 @@
+[submodule "pgbackup"]
+	path = pgbackup
+	url = https://github.com/mstred/pgbackup.git
