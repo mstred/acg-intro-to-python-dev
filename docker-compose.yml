@@ -4,3 +4,7 @@ services:
     working_dir: /tmp
     volumes:
       - .:/tmp
+      - aws:/root/.aws # TODO: adopt non-root user
+
+volumes:
+  aws:
