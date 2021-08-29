@@ -1,3 +1,6 @@
 [submodule "pgbackup"]
 	path = pgbackup
 	url = https://github.com/mstred/pgbackup.git
+[submodule "hr"]
+	path = hr
+	url = https://github.com/mstred/hr.git
