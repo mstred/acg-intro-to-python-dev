@@ -138,4 +138,5 @@ dmypy.json
 cython_debug/
 
 # pipenv generated tmp files
+pip-unpack*
 tmp*
