@@ -1,10 +1,12 @@
 services:
   py:
     build: .
-    working_dir: /tmp
+    ports:
+      - 127.0.0.1:3000:3000
     volumes:
       - .:/tmp
       - aws:/root/.aws # TODO: adopt non-root user
+    working_dir: /tmp
 
 volumes:
   aws:
