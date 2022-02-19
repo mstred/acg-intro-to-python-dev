@@ -1,9 +1,12 @@
+[submodule "hr"]
+	path = hr
+	url = https://github.com/mstred/hr.git
 [submodule "notes"]
 	path = notes
 	url = https://github.com/mstred/notes.git
 [submodule "pgbackup"]
 	path = pgbackup
 	url = https://github.com/mstred/pgbackup.git
-[submodule "hr"]
-	path = hr
-	url = https://github.com/mstred/hr.git
+[submodule "tickets"]
+	path = tickets
+	url = https://github.com/mstred/tickets.git
